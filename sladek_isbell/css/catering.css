@@ -1,0 +1,273 @@
+#mainContent {
+	height: 1470px;
+	padding-top: 20px;
+	background-color: #FFFFF0;
+}
+
+#firstColumn {
+	width: 26%;
+	height: 200px;
+	float: left;
+}
+
+#firstColumn p {
+	line-height: 125%;
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	letter-spacing: .5px;
+	text-indent: 40px;
+	text-align: left;
+}
+
+#secondColumn {
+	width: 73%;
+	height: 300px;
+	float: right;
+}
+
+#secondColumn img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.horizontalBar {
+	height: 10px;
+	width: 100%;
+	border-bottom: 5px solid #a0a0a0;
+}
+
+.caterColumn {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-right: 22px;
+	padding-top: 10px;
+	padding-bottom: 22px;
+}
+
+.caterColumn img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.caterColumn img:hover {
+	opacity: .9;
+}
+
+#caterColumnRight {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-bottom: 22px;
+	padding-top: 10px;
+}
+
+#caterColumnRight img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#caterColumnRight img:hover {
+	opacity: .9;
+}
+
+.secondRowColumn {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-right: 22px;
+}
+
+.secondRowColumn img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.secondRowColumn img:hover {
+	opacity: .9;
+}
+
+#secondRowColumnRight {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+}
+
+#secondRowColumnRight img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#secondRowColumnRight img:hover {
+	opacity: .9;
+}
+
+.button {
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	top: 100px;
+	left: 103px;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #a0a0a0;
+	opacity: .9;
+	display: block;
+	text-align: center;
+}
+
+.button a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Alegreya', serif;
+	color: #000;
+	font-size: 34px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+
+#thirdRowColumn {
+	width: 31%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-right: 18px;
+	padding-top: 10px;
+	padding-bottom: 22px;
+	border-right: 5px solid #a0a0a0;
+	border-bottom: 5px solid #a0a0a0;
+}
+
+#thirdRowColumnMiddle {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-right: 18px;
+	padding-top: 10px;
+	padding-bottom: 22px;
+	border-right: 5px solid #a0a0a0;
+	border-bottom: 5px solid #a0a0a0;
+}
+
+#thirdRowColumnRight {
+	width: 32%;
+	height: 250px;
+	float: left;
+	position: relative;
+	padding-bottom: 22px;
+	padding-top: 10px;
+	border-bottom: 5px solid #a0a0a0;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Alegreya', serif;
+}
+
+.smallHorizontalBar {
+	width: 80%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+p {
+	font-family: 'Alegreya', serif;
+	font-size: 18px;
+	letter-spacing: .5px;
+	text-align: center;
+}
+
+.createButton {
+	position: absolute;
+	width: 200px;
+	height: 35px;
+	top: 220px;
+	left: 80px;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #eee8aa;
+	opacity: .9;
+	display: block;
+	text-align: center;
+}
+
+.createButton a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Alegreya', serif;
+	color: #000;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+
+#bottomLeftColumn {
+	width: 73%;
+	height: 300px;
+	float: left;
+	padding-top: 10px;
+}
+
+#bottomLeftColumn img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#bottomRightColumn {
+	width: 25%;
+	height: 300px;
+	float: right;
+	padding-top: 10px;
+	position: relative;
+}
+
+#bottomRightColumn p {
+	line-height: 125%;
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	letter-spacing: .5px;
+	text-indent: 40px;
+	text-align: left;
+}
+
+#reviewButton {
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	top: 260px;
+	left: 75px;
+	border-radius: 8px 8px 8px 8px;
+	background-color: #eee8aa;
+	opacity: .9;
+	display: block;
+	text-align: center;
+}
+
+#reviewButton a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Alegreya', serif;
+	color: #000;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
